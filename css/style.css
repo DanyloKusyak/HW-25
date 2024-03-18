@@ -1,0 +1,30 @@
+.parent {
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+.child {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.parent div:first-child {
+    background-color: #ff8888;
+    top: 50px;
+    left: 50px;
+}
+
+.parent div:nth-child(2) {
+    background-color: #7e8aeb;
+    top: 100px;
+    left: 100px;
+}
+
+.parent div:nth-child(3) {
+    background-color: #4def99;
+    top: 150px;
+    left: 150px;
+    z-index: -1;
+}
